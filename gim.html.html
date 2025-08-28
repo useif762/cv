@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Final Exam</title>
+</head>
+<body>
+    <h1> useif </h1>
+
+    <p>أنا مبتدئ في تعلم HTML، وهذه الصفحة هي جزء من الامتحان النهائي الخاص بي.</p>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Projects</a> |
+        <a href="#">Contact</a>
+    </nav>
+    <h2>جدول الدرجات</h2>
+    <table border="1">
+        <tr>
+            <th>المادة</th>
+            <th>الدرجة</th>
+            <th>الملاحظات</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>95</td>
+            <td>ممتاز</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>90</td>
+            <td>جيد جدًا</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>85</td>
+            <td>جيد</td>
+        </tr>
+    </table>
+    <h2>أهم 3 أهداف لي</h2>
+    <ol>
+        <li>تعلم HTML و CSS</li>
+        <li>إنشاء أول موقع شخصي</li>
+        <li>التحول لمطور ويب محترف</li>
+    </ol>
+    <h2>هواياتي</h2>
+    <ul>
+        <li>القراءة</li>
+        <li>البرمجة</li>
+        <li>الألعاب الإلكترونية</li>
+    </ul>
+    <h2>صورة مع Alt</h2>
+    <img src="your-image.jpg" alt="وصف للصورة" width="200">
+    <h2>مقطع صوتي</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        المتصفح لا يدعم تشغيل الصوت.
+    </audio>
+
+    <!-- أو فيديو بدل الصوت -->
+    <!--
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        المتصفح لا يدعم تشغيل الفيديو.
+    </video>
+    -->
+    <h2>نموذج التواصل</h2>
+    <form>
+        الاسم: <input type="text" name="name"><br><br>
+        البريد الإلكتروني: <input type="email" name="email"><br><br>
+        
+        الجنس:<br>
+        <input type="radio" name="gender" value="male"> ذكر<br>
+        <input type="radio" name="gender" value="female"> أنثى<br><br>
+
+        المادة المفضلة:
+        <select name="subject">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="php">PHP</option>
+        </select><br><br>
+
+        الرسالة:<br>
+        <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="إرسال">
+    </form>
+    <footer>
+        <p>تواصل معنا: email@example.com | 01000000000</p>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script></p>
+    </footer>
+</body>
+</html>
